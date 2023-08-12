@@ -1,0 +1,32 @@
+.OrderListPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #112a44;
+}
+
+.OrderListGrid {
+    width: 100%;
+}
+
+.Order {
+    width: 100%;
+    transition: box-shadow .2s ease-in-out;
+    cursor: pointer;
+    background-color: #00e09d;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Order:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}

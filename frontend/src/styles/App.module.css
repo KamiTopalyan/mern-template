@@ -1,0 +1,38 @@
+.pageContainer {
+    padding: 32px 0;
+}
+
+.navbar {
+    background-color: #a0b3c8;
+}
+
+.navbarText {
+    color: #112a44;
+}
+
+.navbar button {
+    background-color: #486582;
+    border-radius: 20px;
+    margin-right: 20px;
+    border-color: #486582;
+    color: #f0f4f7;
+}
+
+.navbar button:hover {
+    background-color: #486582;
+    border-color: #486582;
+}
+.navBrand {
+    color: #112a44;
+}
+
+.navBrand:hover {
+    color: rgb(61, 100, 146);
+}
+
+.navlink {
+    color: #112a44;
+}
+.navlink:hover {
+    color: rgb(61, 100, 146);
+}

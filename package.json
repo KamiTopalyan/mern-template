@@ -1,0 +1,15 @@
+{
+    "name": "html",
+    "version": "1.0.0",
+    "scripts": {
+        "install-server": "cd backend && npm install",
+        "start-server": "cd backend && npm start",
+        "install-frontend": "cd frontend && npm install",
+        "start-frontend": "cd frontend && npm start",
+        "install": "npm run install-server && npm run install-frontend",
+        "install-commands": "npm install -g concurrently nodemon",
+        "start": "concurrently \"npm run start-frontend\" \"npm run start-server\""
+    },
+    "author": "",
+    "license": "ISC"
+}
